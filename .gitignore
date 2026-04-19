@@ -1,0 +1,83 @@
+# ============================================================
+#  Archivos generados por Flex (Analizador Léxico)
+# ============================================================
+lex.yy.c
+lex.yy.cc
+*.yy.c
+*.yy.cc
+*.yy.cpp
+
+# Si usas un prefijo personalizado con flex (opción -P o %option prefix)
+# descomenta y adapta:
+# [prefijo].yy.c
+# [prefijo].yy.cc
+
+# ============================================================
+#  Archivos generados por Bison (Analizador Sintáctico)
+# ============================================================
+*.tab.c
+*.tab.h
+*.tab.cc
+*.tab.hh
+*.tab.cpp
+*.tab.hpp
+y.tab.c
+y.tab.h
+y.output
+
+# Si usas un prefijo personalizado con bison (opción -d -p o %define api.prefix)
+# descomenta y adapta:
+# [prefijo].tab.c
+# [prefijo].tab.h
+
+# ============================================================
+#  Archivos de compilación C/C++
+# ============================================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+
+# ============================================================
+#  Directorios de construcción
+# ============================================================
+build/
+bin/
+dist/
+obj/
+Debug/
+Release/
+cmake-build-*/
+
+# ============================================================
+#  Logs y archivos temporales
+# ============================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+*.swo
+.vscode/
+*.user
+*.suo
+
+# ============================================================
+#  Sistema operativo
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+#  Archivos de prueba generados
+# ============================================================
+*.test
+test_output/
