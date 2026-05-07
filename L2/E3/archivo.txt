@@ -1,0 +1,85 @@
+# Este es un archivo de prueba para el analizador lexico
+# Prueba de comentarios: todo lo que viene despues de # es ignorado
+
+# === 1. VARIABLES ===
+x = 10
+var_x = 11
+_temp = 12
+contador = 0
+nombre1 = Juan
+totalSuma = 100
+var123 = 42
+A = B + C
+
+# === 2. ENTEROS CON Y SIN SIGNO ===
+a = 42
+b = -17
+c = +255
+d = 0
+e = -0
+f = +0
+
+# === 3. REALES EN COMA FLOTANTE ===
+pi = 3.14159
+negativo = -0.5
+positivo = +123.456
+ceroPunto = .75
+menosPunto = -.99
+
+# === 4. REALES EN NOTACION EXPONENCIAL ===
+avogadro = 6.022e23
+pequeno = -1.5E-10
+grande = +3e+8
+sinPunto = 5E10
+puntoOpcional = .5e2
+otro = 2.0e-3
+
+# === 5. OPERADORES MATEMATICOS ===
+resultado = a + b - c * d / e
+resto = a MOD b
+cociente = a DIV b
+
+# === 6. PARENTESIS ===
+formula = (a + b) * (c - d)
+funcion = (x + y) / z
+anidado = ((a + b) * c)
+
+# === CASOS DE VALIDACION Y POSIBLES ERRORES ===
+# Variable que empieza con numero (debe dar error)
+1variable = 10
+
+# Numero mal formado
+mal = 12.34.56
+
+# Notacion exponencial incompleta
+incompleto = 5e
+
+# Caracteres especiales no reconocidos
+simbolo = @ # esto deberia dar error para @
+corchetes = [ ] # error para [ y ]
+
+# DIV y MOD como variables (no, son operadores)
+miDIV = 5
+miMOD = 3
+
+# Mas casos de enteros
+enteroGrande = 999999999
+enteroNeg = -2147483648
+
+# Mas casos de flotantes
+flotante1 = 0.0
+flotante2 = -0.0
+flotante3 = +0.001
+flotante4 = .0001
+
+# Mas exponenciales
+exp1 = 1e0
+exp2 = -1E0
+exp3 = +1e+0
+exp4 = .1e-1
+exp5 = 10.e5
+
+# Expresion compleja
+resultadoFinal = (a + b) * c / d - e MOD f DIV g
+
+# Fin del archivo de prueba

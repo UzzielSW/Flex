@@ -1,0 +1,11 @@
+# Este es un archivo de prueba para el analizador lexico
+# Prueba de comentarios: todo lo que viene despues de # es ignorado
+# === 1. VARIABLES ===
+x = 10
+var_x = 11
+_temp = 12
+contador = 0
+nombre1 = Juan
+totalSuma = 100
+var123 = 42
+A = B + C

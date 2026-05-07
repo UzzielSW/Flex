@@ -1,0 +1,15 @@
+Este es un archivo de prueba para el analizador lexico generado con Flex.
+
+El programa contara:
+- Lineas
+- Palabras como Hola y Mundo
+- Numeros como 42, 123 y 9999
+
+Tambien detectara palabras sueltas: Flex, C, compilador, tokens.
+
+2026 es el año actual.
+El precio es 19.99 dolares (pero el punto no es numero en este contador simple).
+
+Fin del archivo.
+123 456 789
+ultima linea sin salto

@@ -1,0 +1,19 @@
+Este    es    un    texto    con    muchos    espacios.
+Aqui		hay		varios		tabuladores		seguidos.
+
+Linea   con   espacios   y		tabuladores		mezclados.
+    Indentacion    con    cuatro    espacios    al    inicio.
+		Indentacion con dos tabs al inicio.
+
+Numeros: 1    2    3    4    5
+Palabras: hola    mundo    prueba    flex
+
+Doble  espacio  entre  cada  palabra.
+Triple   espacio   entre   cada   palabra.
+
+Tab			doble.
+Tab				triple.
+
+Mezcla   	   de   	   espacios   	   y   	   tabs.
+
+Fin del archivo.
